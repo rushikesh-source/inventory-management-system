@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* ===== Global Theme Colors ===== */
+:root {
+  --bg-primary: #020617;    /* Black */
+  --bg-secondary: #0f172a;  /* Dark Blue */
+  --accent: #2563eb;        /* Blue */
+  --text-primary: #ffffff; /* White */
+  --text-muted: #cbd5f5;
+}
+
+/* ===== Apply Globally ===== */
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+  margin: 0;
+  padding: 0;
+}
